@@ -76,7 +76,7 @@
             // btnCong
             // 
             this.btnCong.BackColor = System.Drawing.Color.DodgerBlue;
-            this.btnCong.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCong.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCong.ForeColor = System.Drawing.Color.White;
             this.btnCong.Location = new System.Drawing.Point(270, 189);
             this.btnCong.Name = "btnCong";
