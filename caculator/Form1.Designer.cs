@@ -37,6 +37,7 @@
             this.txtRes = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.btnThoat = new System.Windows.Forms.Button();
+            this.btnTru = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -77,7 +78,7 @@
             this.btnCong.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnCong.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCong.ForeColor = System.Drawing.Color.White;
-            this.btnCong.Location = new System.Drawing.Point(272, 206);
+            this.btnCong.Location = new System.Drawing.Point(270, 189);
             this.btnCong.Name = "btnCong";
             this.btnCong.Size = new System.Drawing.Size(78, 39);
             this.btnCong.TabIndex = 2;
@@ -116,12 +117,25 @@
             // 
             this.btnThoat.BackColor = System.Drawing.Color.DarkRed;
             this.btnThoat.ForeColor = System.Drawing.Color.White;
-            this.btnThoat.Location = new System.Drawing.Point(191, 213);
+            this.btnThoat.Location = new System.Drawing.Point(12, 284);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(64, 25);
             this.btnThoat.TabIndex = 2;
             this.btnThoat.Text = "Thoát";
             this.btnThoat.UseVisualStyleBackColor = false;
+            // 
+            // btnTru
+            // 
+            this.btnTru.BackColor = System.Drawing.Color.DodgerBlue;
+            this.btnTru.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTru.ForeColor = System.Drawing.Color.White;
+            this.btnTru.Location = new System.Drawing.Point(270, 234);
+            this.btnTru.Name = "btnTru";
+            this.btnTru.Size = new System.Drawing.Size(78, 39);
+            this.btnTru.TabIndex = 2;
+            this.btnTru.Text = "Trừ";
+            this.btnTru.UseVisualStyleBackColor = false;
+            this.btnTru.Click += new System.EventHandler(this.btnCong_Click);
             // 
             // Form1
             // 
@@ -130,6 +144,7 @@
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ClientSize = new System.Drawing.Size(379, 321);
             this.Controls.Add(this.btnThoat);
+            this.Controls.Add(this.btnTru);
             this.Controls.Add(this.btnCong);
             this.Controls.Add(this.txtRes);
             this.Controls.Add(this.txtB);
@@ -159,6 +174,7 @@
         private System.Windows.Forms.TextBox txtRes;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btnThoat;
+        private System.Windows.Forms.Button btnTru;
     }
 }
 
