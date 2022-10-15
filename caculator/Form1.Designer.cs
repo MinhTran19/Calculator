@@ -35,24 +35,26 @@
             this.btnCong = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.txtRes = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.btnThoat = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.Location = new System.Drawing.Point(31, 42);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(33, 26);
+            this.label1.Size = new System.Drawing.Size(65, 26);
             this.label1.TabIndex = 0;
-            this.label1.Text = "a";
+            this.label1.Text = "Nhập a:";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label2
             // 
             this.label2.Location = new System.Drawing.Point(31, 88);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(33, 26);
+            this.label2.Size = new System.Drawing.Size(65, 26);
             this.label2.TabIndex = 0;
-            this.label2.Text = "b";
+            this.label2.Text = "Nhập b:";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // txtA
@@ -72,12 +74,15 @@
             // 
             // btnCong
             // 
+            this.btnCong.BackColor = System.Drawing.Color.DodgerBlue;
+            this.btnCong.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCong.ForeColor = System.Drawing.Color.White;
             this.btnCong.Location = new System.Drawing.Point(272, 206);
             this.btnCong.Name = "btnCong";
             this.btnCong.Size = new System.Drawing.Size(78, 39);
             this.btnCong.TabIndex = 2;
             this.btnCong.Text = "Cộng";
-            this.btnCong.UseVisualStyleBackColor = true;
+            this.btnCong.UseVisualStyleBackColor = false;
             // 
             // label3
             // 
@@ -96,17 +101,41 @@
             this.txtRes.TabIndex = 1;
             this.txtRes.TextChanged += new System.EventHandler(this.txtB_TextChanged);
             // 
+            // label4
+            // 
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(59, 9);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(272, 26);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "CHƯƠNG TRÌNH PHÉP TÍNH CƠ BẢN";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // btnThoat
+            // 
+            this.btnThoat.BackColor = System.Drawing.Color.DarkRed;
+            this.btnThoat.ForeColor = System.Drawing.Color.White;
+            this.btnThoat.Location = new System.Drawing.Point(191, 213);
+            this.btnThoat.Name = "btnThoat";
+            this.btnThoat.Size = new System.Drawing.Size(64, 25);
+            this.btnThoat.TabIndex = 2;
+            this.btnThoat.Text = "Thoát";
+            this.btnThoat.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ClientSize = new System.Drawing.Size(379, 321);
+            this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.btnCong);
             this.Controls.Add(this.txtRes);
             this.Controls.Add(this.txtB);
             this.Controls.Add(this.txtA);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -127,6 +156,8 @@
         private System.Windows.Forms.Button btnCong;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtRes;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button btnThoat;
     }
 }
 
