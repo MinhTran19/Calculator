@@ -16,5 +16,10 @@ namespace caculator
         {
             InitializeComponent();
         }
+
+        private void txtB_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
