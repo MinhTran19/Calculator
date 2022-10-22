@@ -24,13 +24,19 @@ namespace caculator
 
         private void btnCong_Click(object sender, EventArgs e)
         {
-            if (txtA.Text != String.Empty)
-            {
-                double a = double.Parse(txtA.Text);
-                double b = double.Parse(txtB.Text);
-                double c = a + b;
-                txtRes.Text = c.ToString();
-            }
+            int a = int.Parse(txtA.Text.ToString());
+            int b = int.Parse(txtB.Text.ToString());
+            Calculation c = new Calculation(a, b);
+
+            txtRes.Text = c.Execute("+").ToString();
+
+            //if (txtA.Text != String.Empty)
+            //{
+            //    double a = double.Parse(txtA.Text);
+            //    double b = double.Parse(txtB.Text);
+            //    double c = a + b;
+            //    txtRes.Text = c.ToString();
+            //}
         }
 
         private void btnTru_Click(object sender, EventArgs e)

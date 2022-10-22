@@ -38,6 +38,8 @@
             this.label4 = new System.Windows.Forms.Label();
             this.btnThoat = new System.Windows.Forms.Button();
             this.btnTru = new System.Windows.Forms.Button();
+            this.btnNhan = new System.Windows.Forms.Button();
+            this.btnChia = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -78,7 +80,7 @@
             this.btnCong.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnCong.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCong.ForeColor = System.Drawing.Color.White;
-            this.btnCong.Location = new System.Drawing.Point(270, 189);
+            this.btnCong.Location = new System.Drawing.Point(12, 197);
             this.btnCong.Name = "btnCong";
             this.btnCong.Size = new System.Drawing.Size(78, 39);
             this.btnCong.TabIndex = 2;
@@ -127,15 +129,41 @@
             // btnTru
             // 
             this.btnTru.BackColor = System.Drawing.Color.DodgerBlue;
-            this.btnTru.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTru.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTru.ForeColor = System.Drawing.Color.White;
-            this.btnTru.Location = new System.Drawing.Point(270, 234);
+            this.btnTru.Location = new System.Drawing.Point(102, 197);
             this.btnTru.Name = "btnTru";
             this.btnTru.Size = new System.Drawing.Size(78, 39);
             this.btnTru.TabIndex = 2;
             this.btnTru.Text = "Trừ";
             this.btnTru.UseVisualStyleBackColor = false;
             this.btnTru.Click += new System.EventHandler(this.btnCong_Click);
+            // 
+            // btnNhan
+            // 
+            this.btnNhan.BackColor = System.Drawing.Color.DodgerBlue;
+            this.btnNhan.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNhan.ForeColor = System.Drawing.Color.White;
+            this.btnNhan.Location = new System.Drawing.Point(195, 197);
+            this.btnNhan.Name = "btnNhan";
+            this.btnNhan.Size = new System.Drawing.Size(78, 39);
+            this.btnNhan.TabIndex = 2;
+            this.btnNhan.Text = "Nhân";
+            this.btnNhan.UseVisualStyleBackColor = false;
+            this.btnNhan.Click += new System.EventHandler(this.btnCong_Click);
+            // 
+            // btnChia
+            // 
+            this.btnChia.BackColor = System.Drawing.Color.DodgerBlue;
+            this.btnChia.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnChia.ForeColor = System.Drawing.Color.White;
+            this.btnChia.Location = new System.Drawing.Point(289, 197);
+            this.btnChia.Name = "btnChia";
+            this.btnChia.Size = new System.Drawing.Size(78, 39);
+            this.btnChia.TabIndex = 2;
+            this.btnChia.Text = "Chia";
+            this.btnChia.UseVisualStyleBackColor = false;
+            this.btnChia.Click += new System.EventHandler(this.btnCong_Click);
             // 
             // Form1
             // 
@@ -145,6 +173,8 @@
             this.ClientSize = new System.Drawing.Size(379, 321);
             this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.btnTru);
+            this.Controls.Add(this.btnNhan);
+            this.Controls.Add(this.btnChia);
             this.Controls.Add(this.btnCong);
             this.Controls.Add(this.txtRes);
             this.Controls.Add(this.txtB);
@@ -175,6 +205,8 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btnThoat;
         private System.Windows.Forms.Button btnTru;
+        private System.Windows.Forms.Button btnNhan;
+        private System.Windows.Forms.Button btnChia;
     }
 }
 
